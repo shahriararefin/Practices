@@ -1,26 +1,13 @@
 #include<stdio.h>
 int main(){
 
-    int arr[5];
-    int n,i,max,min;
+    int arr[5]={21,45,43,23,34};
+    int i,max,min;
 
-//taking range from the user
-
-    printf("Enter the range of array: ");
-    scanf("%d", &n);
-    printf("\n");
-
-//taking user input into the array
-
-    printf("Enter different integer values: ");
-
-    for(i=0;i<n;i++){
-     scanf("%d", &arr[i]);   
-    }
 //find minimum value
 
     min=arr[0];
-for(i=1;i<n;i++){
+for(i=1;i<arr[i];i++){
     
 
     if(min>arr[i])
@@ -33,7 +20,7 @@ for(i=1;i<n;i++){
 //find maximum value
 
     max=arr[0];
-for(i=1;i<n;i++){
+for(i=1;i<arr[i];i++){
     
 
     if(max<arr[i])
